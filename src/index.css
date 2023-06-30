@@ -1,0 +1,64 @@
+body {
+  font-family: Calibri;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 900px;
+  min-width: 900px;
+  background-color: #FFFFFF;
+  text-align: center;
+   
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.card {
+  border-radius: 15px;
+  position: relative;
+  padding: 15px 15px;
+  background-color: #FFFFFF;
+  margin: 10px 0;
+  border-color: #9A9797;
+  text-align: left;
+}
+
+.name {
+  font-size: 3em;
+  color: #4c8bf5;
+  display: flex;
+  flex: 1;
+  margin: 0 2px 0;
+  padding: 10px 10px;
+
+}
+
+.image {
+  height: 15%;
+  width: 25%;
+  margin: 0 20px;
+  border-radius: 5%;
+}
+
+.info {
+  margin: 0 20px 0;
+  color: #2d3436;
+  font-size: 2em;
+  padding: 5px 5px;
+  line-height: 130%;
+}
+
+.btn {
+  padding: 10px;
+  color: gray;
+border: 0;
+  border-color: gray;
+  width: 125px;
+  align-content: center;
+  border-radius: 5%;
+  display: inline;
+  background-color: #FCFCFC;
+  margin: 23px 23px 0px;
+  font-weight: 400;
+  font-size: 1.6em;
+}
