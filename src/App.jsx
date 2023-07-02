@@ -59,7 +59,7 @@ function App()
     
     return (
       <div>
-      {feedres.map(fee => <Card title={fee.title} pub={fee.pub} link = {fee._id} creator = {fee.creator} desc = {fee.desc} image = {fee.image} key={Date.now().toString(36) + Math.floor(Math.pow(10, 12) + Math.random() * 9*Math.pow(10, 12)).toString(36)} onclick={onclickhandler} />)}
+      {feedres.map(fee => <Card title={fee.title} topic={fee.topic} pubdate={fee.pubdate} pub={fee.pub} link = {fee._id} creator = {fee.creator} desc = {fee.desc} image = {fee.image} key={Date.now().toString(36) + Math.floor(Math.pow(10, 12) + Math.random() * 9*Math.pow(10, 12)).toString(36)} onclick={onclickhandler} />)}
       <div ref={ref}>
       
     </div>
