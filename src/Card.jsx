@@ -22,8 +22,7 @@ function Card(props) {
          <img className="image" src={props.image} alt="" />
          <a href={props.link} className="name">{props.title}</a>
         <p className="info"><em>{props.pub}</em><em> - </em><em>{props.creator}</em></p>
-        <p className="info">{props.topic}</p>
-        <p className="info">{props.desc}</p>
+        <p className="info"><em> * </em>{props.topic.join(' * ')}</p>
         <button onClick={likeHandler} className="btn" >Like</button>
         <button onClick={keepHandler} className="btn" >Keep</button>
         <button onClick={itemHandler} className="btn" >~Item</button>
